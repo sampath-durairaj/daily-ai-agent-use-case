@@ -1,3 +1,8 @@
+"""
+Tool calling: weather assistant using the Open-Meteo API
+Concepts: function/tool definitions, executing tool calls, feeding results back, structured final answer.
+Run:  python 03nov26_weather_tool_calling.py
+"""
 import os
 import json
 import requests

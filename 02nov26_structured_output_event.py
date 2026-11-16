@@ -1,3 +1,8 @@
+"""
+Structured output: extract a calendar event from text into a Pydantic model
+Concepts: Pydantic schema, client.chat.completions.parse, response_format.
+Run:  python 02nov26_structured_output_event.py
+"""
 import os
 from dotenv import load_dotenv
 from openai import OpenAI

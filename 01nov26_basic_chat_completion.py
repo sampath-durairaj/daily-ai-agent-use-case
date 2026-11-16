@@ -1,3 +1,8 @@
+"""
+Basic chat completion with the OpenAI API
+Concepts: system/user messages, single LLM call, reading the response.
+Run:  python 01nov26_basic_chat_completion.py
+"""
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
